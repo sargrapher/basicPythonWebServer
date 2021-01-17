@@ -1,8 +1,4 @@
-# basicPythonWebServer
-Simple Python Web Server running in a container
-
-To build
-git clone https://github.com/sargrapher/basicPythonWebServer
+cd ../ # Go the directory above the app dir
 #Build the container and name (tag) it basicpythonwebserver 
 sudo docker build basicPythonWebServer -t basicpythonwebserver
 # run the container named (tagged) basicpythonwebserver in the background (daemon)
