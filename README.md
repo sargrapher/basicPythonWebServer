@@ -17,7 +17,6 @@
 ### in the background (-d) as a daemon
 ### and name the running container mywebserver (--name mywebserver)
 ### and expose the container port 8000 to the host port 8000 (-p8000:8000)
-# and expose the container port 8000 to the host (-p8000:8000)
 
 ```   sudo docker run -d -p8000:8000 --name mywebserver basicpythonwebserver ```
 
